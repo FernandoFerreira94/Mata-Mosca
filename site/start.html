@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Game"> 
+    <meta name="author" content="Fernando Ferreia"> <!-- nome de quem fez o site-->
+    <meta name="keywords" content="Game Mata mosca"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/gameOver.css">
+</head>
+<body style="background-image: url(../imagens/bg.jpg);">
+    <main>
+        <section>
+            <div>
+                <img src="../imagens/game.png" alt="">
+            </div>
+        </section>
+        <div>
+            <section>
+                <select name="nivel" id="nivel">
+                    <option value="">Selecionar o nível</option>
+                    <option value="easy">Easy</option>
+                    <option value="normal">Normal</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </section>
+        </div>
+        <div>
+            <button onclick="iniciar()" type="button" id="btnStart">Start Game</button>
+        </div>
+    </main>
+    </body>
+    <script src="../javaScript/gameOver.js"></script>
+</html>
