@@ -1,0 +1,56 @@
+html {
+    cursor: url(../imagens/mata_mosca.png)30 30, auto; // img do curso, 30 left 30 top do eixo
+ }
+
+body {
+    background:url(../imagens/bg.jpg) no-repeat;
+    background-size: 100%;
+    
+    main {
+       height: 97dvh;
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+    align-items: center;
+   }
+   .gameOver {
+    background: url(../imagens/game_over.png);
+   }
+}
+
+#btnRetry, #btnStart {
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    background-color: lightgreen;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btnStart {
+    background-color: rgb(254, 39, 39);
+}
+
+#btnRetry:hover,#btnStart:hover  {
+    transform: scale(1.1);
+    
+}
+
+select {
+    padding: 8px 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+
+option {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}

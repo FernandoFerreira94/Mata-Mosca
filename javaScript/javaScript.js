@@ -21,7 +21,6 @@ switch (nivelHref) { // função dinamica para jogador escolher o nivel do game
         nivelTempo = 1000
      break;
 
-    default:
         break;
 }
 
